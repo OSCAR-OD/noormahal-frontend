@@ -1,7 +1,7 @@
 "use client";
 import Modal from "@/components/modal";
-import CredentialsSignInForm from "@/app/(auth)/sign-in/credentials-signin-form";
-import { GoogleSignInForm } from "@/app/(auth)/sign-in/google-signin-form";
+import CredentialsSignInForm from "../../(auth)/sign-in/credentials-signin-form";
+import { GoogleSignInForm } from "../../(auth)/sign-in/google-signin-form";
 import SeparatorWithOr from "@/components/shared/separator-or";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";

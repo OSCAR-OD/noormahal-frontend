@@ -220,7 +220,6 @@ export async function getAllProducts({
   price,
   rating,
   sort,
-  cache,
 }: {
   query: string
   category: string
@@ -230,7 +229,6 @@ export async function getAllProducts({
   price?: string
   rating?: string
   sort?: string
-  cache?: 'no-store' | 'default';
 }) {
   const {
     common: { pageSize },

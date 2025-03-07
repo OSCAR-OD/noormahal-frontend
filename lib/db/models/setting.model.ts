@@ -50,16 +50,16 @@ const settingSchema = new Schema<ISetting>(
         },
       },
     ],
-    availableLanguages: [
-      {
-        name: {
-          type: String,
-          required: true,
-          set: (value: string) => Buffer.from(value).toString('utf8'),
-        },
-        code: { type: String, required: true },
-      },
-    ],
+    // availableLanguages: [
+    //   {
+    //     name: {
+    //       type: String,
+    //       required: true,
+    //       set: (value: string) => Buffer.from(value).toString('utf8'),
+    //     },
+    //     code: { type: String, required: true },
+    //   },
+    // ],
     defaultLanguage: { type: String, required: true },
     availableCurrencies: [
       {

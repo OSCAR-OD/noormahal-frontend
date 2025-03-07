@@ -42,7 +42,7 @@ export default async function ProductDetailsPage(props: {
   //const currentPage = 1;
   const productsPerPage = 8;
   const data = await getAllProducts({
-    cache: "no-store",
+    // cache: "no-store",
     category: "all",
     tag: "all",
     query: "",
